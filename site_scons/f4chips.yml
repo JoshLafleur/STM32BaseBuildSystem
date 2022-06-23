@@ -1,0 +1,19 @@
+translation:
+  stm32f429:
+    line: stm32
+    family: f4
+    chip: stm32f429
+
+line:
+  stm32:
+    basePath: "embedded/platforms/stm32/"
+    families:
+      f4:
+        cmsis: "f4/cmsis/Include/"
+        hal:
+          src: "f4/hal/Src/"
+          include: "f4/hal/Inc/"
+        chips:
+          stm32f429: "f4/stm32f429.yml"
+        standardFilesDir: "f429"
+
