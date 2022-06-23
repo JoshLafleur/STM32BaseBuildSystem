@@ -1,3 +1,5 @@
+embedded/toolchains/*
+
 # Created by https://www.toptal.com/developers/gitignore/api/vim,c,c++,python,visualstudiocode,platformio
 # Edit at https://www.toptal.com/developers/gitignore?templates=vim,c,c++,python,visualstudiocode,platformio
 
@@ -260,6 +262,7 @@ tags
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+!.vscode/c_cpp_properties.json
 *.code-workspace
 
 ### VisualStudioCode Patch ###
