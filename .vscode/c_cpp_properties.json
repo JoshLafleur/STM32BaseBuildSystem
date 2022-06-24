@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "name": "Replacement F4",
+            "includePath": [
+                "${workspaceFolder}/embedded/toolchains/gcc-arm-none-eabi/arm-none-eabi/include/**",
+                "${workspaceFolder}/embedded/platforms/stm32/f4/hal/Inc/**",
+                "${workspaceFolder}/components/v1/HW/include/*",
+                "${workspaceFolder}/embedded/platforms/stm32/f4/cmsis/Include/**",
+                "${workspaceFolder}/embedded/libs/CMSIS/CMSIS/Core/Include/*"
+            ],
+            "defines": [ "F4"],
+            "compilerPath": "${workspaceFolder}/embedded/toolchains/gcc-arm-none-eabi/bin/arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-arm"
+        },
+        {
+            "name": "Replacement F1",
+            "includePath": [
+                "${workspaceFolder}/embedded/toolchains/gcc-arm-none-eabi/arm-none-eabi/include/**",
+                "${workspaceFolder}/embedded/platforms/stm32/f1/hal/Inc/**",
+                "${workspaceFolder}/components/v1/HW/include/*",
+                "${workspaceFolder}/embedded/platforms/stm32/f1/cmsis/Include/**",
+                "${workspaceFolder}/embedded/libs/CMSIS/CMSIS/Core/Include/*"
+            ],
+            "defines": ["F1"],
+            "compilerPath": "${workspaceFolder}/embedded/toolchains/gcc-arm-none-eabi/bin/arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}

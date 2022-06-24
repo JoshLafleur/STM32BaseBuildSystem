@@ -1,0 +1,15 @@
+services:
+  builder:
+    build:
+      context: ./containers/ubuntu-jammy-21
+      dockerfile: Dockerfile
+    container_name: builder
+    hostname: build
+    volumes:
+      - .:/firmware
+    user: build
+    tty: true
+    stdin_open: true
+    privileged: true
+    devices:
+      - "/dev/bus/usb:/dev/bus/usb/"

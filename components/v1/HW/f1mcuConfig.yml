@@ -1,0 +1,9 @@
+mcu: STM32F103
+linker:
+  useDefault: true
+drivers:
+  #required drivers
+  hal:
+  cortex:
+  rcc_ex:
+  flash:

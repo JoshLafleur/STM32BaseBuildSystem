@@ -1,0 +1,9 @@
+mcu: STM32F103
+linker:
+  useDefault: true
+drivers:
+
+mcu: STM32F429
+linker:
+  useDefault: true
+drivers:
